@@ -188,7 +188,10 @@ border:1px solid rgb(42, 66, 202);
 .mnbdy
 {
     width:1908px;
-    height:3600px;
+    height:1800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
 }
 .mnbdy1
@@ -305,31 +308,25 @@ color: rgb(115, 73, 242);
     height: 840px;
    background-image: url("https://www.blockchain.com/static/img/home/home-wallet-shapes-bg.png");
    background-repeat: no-repeat;
+   /* display: flex; */
+   /* justify-content:space-around; */
 }
 .mnbdy101 img
 {
     padding-left: 30px;
 }
- mnbdy2
-{
-    width:1280px;
-    height:840px;
-    position: relative;
-    right:-330px;
-   
-}
+ 
 
 
-
-.mnbdy3
+/* .mnbdy3
 
 {
     width:1280px;
-    height:840px;
+    height:200px;
     position: relative;
     right:-330px;
    
-}
+} */
 
 
 
@@ -339,9 +336,108 @@ color: rgb(115, 73, 242);
     height:840px;
     position: relative;
     right:-330px;
+    background-color: rgb(255, 248, 242);
    
 }
+.mnbdy401
+{
+    float:right;
+    width: 640px;
+    height: 840px;
+   background-image: url("https://www.blockchain.com/static/img/home/home-explorer-shapes-bg.png");
+   background-repeat: no-repeat;
+   /* display: flex; */
+   /* justify-content:space-around; */
+}
 
+.mnbdy43
+ {
+    width: 500px;
+    height:104px;
+    margin-bottom:30px;
+ }
+.mnbdy43 h1{
+    font-size: 43px;
+    font-weight: 600;
+    color: rgb(242, 139, 36);
+}
+.mnbdy44
+{
+    width: 488px;
+    height: 394px;
+    margin-bottom: 30px;
+}
+.mnbdy45
+{
+    width: 486px;
+    height: 112px;
+border:1px solid rgb(132, 99, 230);
+background-color: rgb(250, 228, 205);
+border-radius: 10px;
+margin-bottom: 12px;
+}
+.mnbdy46
+{
+width:486px;
+height:56px;
+border:1px solid rgb(250, 228, 205);
+
+border-radius: 10px;
+margin-bottom: 12px;
+
+}
+.mnbdy47
+{
+width: 446px;
+height:24px;
+padding:16px 20px 0px 20px;
+color: rgb(242, 139, 36);
+}
+.mnbdy48
+{
+width:348px;
+height:48px;
+padding: 8px 20px 16px 20px;
+color: rgb(242, 139, 36);
+}
+.mnbdy49
+{
+    width:446px;
+    height:24px;
+    padding:16px 20px;
+    color: rgb(242, 139, 36);
+}
+.mnbdy41 button
+
+{
+    background-color: rgb(217, 103, 22);
+    width:150px;
+    height:50px;
+    border-radius: 10px;
+    color:white;
+}
+.mnbdy41
+{
+    float: left;
+    width:500px;
+    height:700px;
+  padding:70px 0px 70px 140px;
+
+}
+.mnbdy42
+{
+
+    height:32px;
+    width: 95px;
+    padding:16px 16px;
+    margin-bottom: 20px;
+    color: rgb(242, 139, 36);
+    font-size: large;
+    text-align:top;
+    background-color: rgb(255, 242, 229);
+    border:1px solid rgb(250, 228, 205);
+    border-radius: 20px;
+}
 
 
 
